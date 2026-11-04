@@ -1,22 +1,22 @@
 /* Styles for Mobile Site */
 
 body {
-    background-color:gray;
+    background-color:#9BB854;
 }
 
 /* Head & Hero */
 header,main,footer {
-    background-color:white;
+    background-color:#B8855D;
     padding:1rem;
     box-shadow:10px 10px 10px rgba(0,0,0,.5);
     margin-bottom:2rem;
-    border:5px solid #ddd;
+    border:5px solid #2E5D63;
 }
 header {
     text-align:center;
 }
 main {
-    border:5px solid #ddd;
+    border:5px solid #2E5D63;
 }
 h1 {
     font-size:400%;
@@ -42,16 +42,19 @@ h1 {
     text-align:center;
     font-size:200%; 
 }
+#projects .intro {
+    text-align:center;
+}
 
 /* Reviews */
 #reviews .review {
     display:flex;
     flex-direction: column;
-    border:3px solid #ddd;
+    border:3px solid #2E5D63;
     border-radius:1rem;
     padding:2rem;
     margin-bottom:1rem;
-    background-color:#eee;
+    background-color:#A060B8;
 }
 .review .content {
     flex-grow:4;
@@ -82,7 +85,7 @@ footer {
         padding:2rem;
     }
     header,main,footer {
-        background-color:white;
+        background-color:#B8855D;
         padding:2.5rem 5rem;
         box-shadow:10px 10px 10px rgba(0,0,0,.5);
         margin-bottom:2rem;
@@ -95,7 +98,7 @@ footer {
         align-items:center;
     }
     #hero img {
-        max-width:20%;
+        max-width:30%;
     }
 
     /* Projects */
@@ -125,4 +128,20 @@ footer {
 
     /* Footer */
 
+}
+/* Colors from the chosen palette */
+header {
+    background-color:#0BA5B8;
+}
+footer {
+    background-color:#2E5D63;
+    color:white;
+}
+
+/* Fonts */
+body {
+    font-family: "Redaction 50", serif;
+}
+h1, h2, h3 {
+    font-family: "Tiny5 Duo", sans-serif;
 }
